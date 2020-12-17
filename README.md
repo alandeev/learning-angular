@@ -11,7 +11,7 @@
 ## Ready 💖
 
 - Component and Basic about Angular and release versions
-- [ Property and Interpolation / Class and Style / Event ] - BIND
+- [ Property and Interpolation / Class and Style / Event ] - BINDING
 - Two-way Data binding
 
 ## Information Progress(Date) and Avaliation
