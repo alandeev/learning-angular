@@ -1,3 +1,6 @@
 <h1>{{ title }}</h1>
 
-<app-data-binding></app-data-binding>
+<!-- <app-data-binding></app-data-binding> -->
+<app-ciclo [currentValue]="currentValue" *ngIf="!ciclyDeleted"></app-ciclo>
+<button class="btn btn-primary" (click)="increment()">Aumentar</button>
+<button class="btn btn-primary" (click)="cicloDelete()">Deletar</button>
