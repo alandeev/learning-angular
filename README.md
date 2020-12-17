@@ -1,13 +1,15 @@
 # Learning Angular 🚀
 
-## To Do 💙
+## My experience with Angular so far.
 
-- Many Somethings and Tools 😁
+```
+I'm loving learning Angular, it's a powerful framework, even more with the use of TypeScript. The way it works with data is very organized, with each componentized sector, you can abstract and work directly with a single functionality of the application, apart from the benefit of being SPA (Single Page Application) working dynamically, reducing several processes that normally pollute the code and take too long to do. 🥰
+```
 
-## Progress 💜
+## To do / Progress 💜
 
-- Component life cycle
 - DOM and template access with ViewChild
+- Angular CLI
 
 ## Ready 💖
 
@@ -16,6 +18,7 @@
 - Two-way Data binding
 - Input Property '@Input()' and 'inputs: []'
 - OutPut Property '@Output'
+- Component life cycle and events.
 
 ## Information Progress(Date) and Avaliation
 
