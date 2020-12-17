@@ -1,27 +1,38 @@
-# LearningAngular
+# Learning Angular 🚀
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+## To Do 💙
 
-## Development server
+- Many Somethings and Tools 😁
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Progress 💜
 
-## Code scaffolding
+- Component
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Ready 💖
 
-## Build
+- introduction to Angular tools and release versions
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Information Progress(Date) and Avaliation
 
-## Running unit tests
+``` javascript
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+{
+  category: "Angular",
+  startedCourseInTheDate: "17/12/2020",
+  endedCourseInTheDate: null,
+  avaliation: "5 stars at in the moment 🚀"
+}
 
-## Running end-to-end tests
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Course Information
+[Curso de Angular [pt-BR]](https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=1&ab_channel=LoianeGroner)
+``` javascript
+{
+  author: "Loiane Groner",
+  name: "Curso de Angular",
+  plataform: "Youtube",
+  language: "pt-BR",
+  didactic: true
+}
+```
