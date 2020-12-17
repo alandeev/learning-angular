@@ -2,9 +2,7 @@
 
 ## My experience with Angular so far.
 
-```
-I'm loving learning Angular, it's a powerful framework, even more with the use of TypeScript. The way it works with data is very organized, with each componentized sector, you can abstract and work directly with a single functionality of the application, apart from the benefit of being SPA (Single Page Application) working dynamically, reducing several processes that normally pollute the code and take too long to do. 🥰
-```
+_I'm loving learning Angular, it's a powerful framework, even more with the use of TypeScript. The way it works with data is very organized, with each componentized sector, you can abstract and work directly with a single functionality of the application, apart from the benefit of being SPA (Single Page Application) working dynamically, reducing several processes that normally pollute the code and take too long to do. 🥰_
 
 ## To do / Progress 💜
 
