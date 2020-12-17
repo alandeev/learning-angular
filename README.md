@@ -6,13 +6,14 @@
 
 ## Progress 💜
 
-- Re-use components
+- Emmiting event with output properties
 
 ## Ready 💖
 
 - Component and Basic about Angular and release versions
 - [ Property and Interpolation / Class and Style / Event ] - BINDING
 - Two-way Data binding
+- Input Property '@Input()' and 'inputs: []'
 
 ## Information Progress(Date) and Avaliation
 

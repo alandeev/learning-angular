@@ -11,6 +11,7 @@ export class DataBindingComponent{
   inputValue: string = "";
   isMouseOver: boolean = false;
   nameValue: string = "abc";
+  cursoName: string = "Angular";
 
   pessoa: any = {
     name: 'alan',

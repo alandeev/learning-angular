@@ -68,7 +68,9 @@
       </span>
     </div>
   </article> -->
-  <article>
+
+  <!-- Two-way binding ✔ -->
+  <!-- <article>
     <h3>Two-way binding</h3>
     <div>
       <input type="text" #name (input)="changeName(name.value)"/>
@@ -80,6 +82,13 @@
       <input type="text" [(ngModel)]="pessoa.name"/>
       <input type="text" [(ngModel)]="pessoa.age"/>
     </div>
+  </article> -->
+
+  <!-- input-propery binding ✔ -->
+  <article>
+    <h3>Input/Output Properties</h3>
+
+    <app-cursos [name]="cursoName"></app-cursos>
   </article>
 </section>
 
