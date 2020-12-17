@@ -6,7 +6,8 @@
 
 ## Progress 💜
 
-- Emmiting event with output properties
+- Component life cycle
+- DOM and template access with ViewChild
 
 ## Ready 💖
 
@@ -14,6 +15,7 @@
 - [ Property and Interpolation / Class and Style / Event ] - BINDING
 - Two-way Data binding
 - Input Property '@Input()' and 'inputs: []'
+- OutPut Property '@Output'
 
 ## Information Progress(Date) and Avaliation
 
