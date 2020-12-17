@@ -10,6 +10,12 @@ export class DataBindingComponent{
   imageURL: string = "https://ep00.epimg.net/verne/imagenes/2019/11/13/album/1573641411_551713_1573641467_album_normal.jpg";
   inputValue: string = "";
   isMouseOver: boolean = false;
+  nameValue: string = "abc";
+
+  pessoa: any = {
+    name: 'alan',
+    age: 20
+  }
 
   getimage(){
     return this.imageURL;
@@ -24,4 +30,5 @@ export class DataBindingComponent{
   }
 
   changeInputValue = (value: string) => this.inputValue = value;
+  changeName = (value: string) => this.nameValue = value;
 }

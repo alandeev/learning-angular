@@ -68,6 +68,19 @@
       </span>
     </div>
   </article> -->
+  <article>
+    <h3>Two-way binding</h3>
+    <div>
+      <input type="text" #name (input)="changeName(name.value)"/>
+      <input type="text" [ngModel]="nameValue" (ngModelChange)="nameValue = $event" />
+      <input type="text" [(ngModel)]="nameValue"/>
+      <p>você digitou {{  nameValue }}</p>
+
+      <p>Object Pessoa: nome {{ pessoa.name }} idade '{{ pessoa.age }}'</p>
+      <input type="text" [(ngModel)]="pessoa.name"/>
+      <input type="text" [(ngModel)]="pessoa.age"/>
+    </div>
+  </article>
 </section>
 
 <!-- Class and Style binding -->

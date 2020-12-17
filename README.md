@@ -6,13 +6,13 @@
 
 ## Progress 💜
 
-- Two-way Data binding
 - Re-use components
 
 ## Ready 💖
 
 - Component and Basic about Angular and release versions
 - [ Property and Interpolation / Class and Style / Event ] - BIND
+- Two-way Data binding
 
 ## Information Progress(Date) and Avaliation
 
