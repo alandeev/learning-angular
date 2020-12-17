@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "data-binding"
+  "defaultProject": "data-binding",
+  "cli": {
+    "analytics": "fb56b372-84f1-4ca7-b2f5-5549bbaf25aa"
+  }
 }

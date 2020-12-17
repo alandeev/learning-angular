@@ -1,0 +1,74 @@
+<section class="property-binding" >
+  <!-- Interpolation ✔ -->
+  <!-- <article>
+    <h3>Interpolation / Interpolação</h3>
+    <img src="{{ getimage() }}">
+    <img [src]="getimage()">
+    <img bind-src="getimage()">
+  </article> -->
+
+  <!-- Class and Style ✔ -->
+  <!-- <article>
+    <h3>Class and Style</h3>
+    <div>
+      Selecione uma classe:
+      <select #classe (change)="changeSelect($event)">
+        <option value="alert-success">Sucesso</option>
+        <option value="alert-danger">Error</option>
+        <option value="alert-warning">Warning</option>
+        <option value="alert-info">Info</option>
+      </select>
+      <br>
+      <br>
+      <div class="alert {{ classe.value }}" role="alert"
+      >Texto colorido conforme valor do combobox</div>
+      <br>
+      <br>
+      <div class="alert alert-danger" role="alert"
+        [style.display]="classe.value === 'alert-danger' ? 'block' :  'none'"
+      >Esse texto somente é exibido em caso de error.
+      </div>
+      <br>
+      <br>
+      <div class="alert" role="alert"
+        [class.alert-success]="classe.value == 'alert-success'"
+      >Sucesso</div>
+
+      <div class="alert" role="alert"
+        [class.alert-danger]="classe.value == 'alert-danger'"
+      >Error</div>
+
+      <div class="alert" role="alert"
+        [class.alert-warning]="classe.value == 'alert-warning'"
+      >Warning</div>
+
+      <div class="alert" role="alert"
+        [class.alert-info]="classe.value == 'alert-info'"
+      >Info</div>
+    </div>
+  </article> -->
+
+  <!-- Event binding ✔ -->
+  <!-- <article>
+    <h3>Event binding</h3>
+    <div>
+      <button
+      (click)="handleClick($event)"
+      class="btn btn-primary">Me clique!</button>´
+      <p>{{ inputValue }}</p>
+      <br><br>
+      <input type="text" #inputtext (value)="inputValue" (keyup)="changeInputValue(inputtext.value)">
+      <br><br>
+      <span
+        (mouseover)="isMouseOver = true"
+        (mouseout)="isMouseOver = false"
+        class="{{ isMouseOver ? 'text text-success' : '' }}"
+      >
+      Passe o mouse sobre mim
+      </span>
+    </div>
+  </article> -->
+</section>
+
+<!-- Class and Style binding -->
+
