@@ -89,6 +89,8 @@
     <h3>Input/Output Properties</h3>
 
     <app-cursos [name]="cursoName"></app-cursos>
+
+    <counter [start]="10" (mudouValor)="onMudouValor($event)"></counter>
   </article>
 </section>
 

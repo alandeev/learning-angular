@@ -32,4 +32,5 @@ export class DataBindingComponent{
 
   changeInputValue = (value: string) => this.inputValue = value;
   changeName = (value: string) => this.nameValue = value;
+  onMudouValor = (event: any) => console.log(event);
 }
