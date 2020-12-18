@@ -1,6 +1,8 @@
-<h1>{{ title }}</h1>
+<!-- <h1>{{ title }} Angular</h1> -->
 
 <!-- <app-data-binding></app-data-binding> -->
-<app-ciclo [currentValue]="currentValue" *ngIf="!ciclyDeleted"></app-ciclo>
+<!-- <app-ciclo [currentValue]="currentValue" *ngIf="!ciclyDeleted"></app-ciclo>
 <button class="btn btn-primary" (click)="increment()">Aumentar</button>
-<button class="btn btn-primary" (click)="cicloDelete()">Deletar</button>
+<button class="btn btn-primary" (click)="cicloDelete()">Deletar</button> -->
+
+<label-editable [value]="LabelEditableValue" (onChange)="onChangeLabelInput($event.value)"></label-editable>

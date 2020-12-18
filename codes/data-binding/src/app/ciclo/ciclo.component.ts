@@ -57,6 +57,6 @@ export class CicloComponent implements OnInit, OnChanges, DoCheck, AfterContentI
   }
 
   private log(hook: string){
-    console.log(hook);
+    // console.log(hook);
   }
 }

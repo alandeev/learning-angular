@@ -9,6 +9,8 @@ export class OutputPropertyComponent{
   @Input('start') number: number = 0;
   @Output('mudouValor') mudouValor = new EventEmitter();
 
+  meu_nome: string = "alan"
+
   constructor() { }
 
   increment(){

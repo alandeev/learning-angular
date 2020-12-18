@@ -10,11 +10,18 @@ export class AppComponent {
   ciclyDeleted: boolean = false;
   title = 'data-binding';
 
+  LabelEditableValue: string = "";
+
   increment(){
     this.currentValue++;
   }
 
   cicloDelete(){
     this.ciclyDeleted = !this.ciclyDeleted;
+  }
+
+  onChangeLabelInput(value: string){
+    this.LabelEditableValue = value;
+    console.log({value, component: "PAI"});
   }
 }

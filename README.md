@@ -6,8 +6,8 @@ _I'm loving learning Angular, it's a powerful framework, even more with the use 
 
 ## To do / Progress 💜
 
-- DOM and template access with ViewChild
-- Angular CLI
+- Angular Structure
+- Generating production build
 
 ## Ready 💖
 
@@ -17,6 +17,10 @@ _I'm loving learning Angular, it's a powerful framework, even more with the use 
 - Input Property '@Input()' and 'inputs: []'
 - OutPut Property '@Output'
 - Component life cycle and events.
+- DOM and template access with ViewChild
+- Angular CLI
+- Directive
+- I created my component that I made in React-JS -> Label-Editable
 
 ## Information Progress(Date) and Avaliation
 

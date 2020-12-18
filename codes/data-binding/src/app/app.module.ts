@@ -9,6 +9,8 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 import { InputPropertyComponent } from './input-property/input-property.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
 import { CicloComponent } from './ciclo/ciclo.component';
+import { LabelEditableComponent } from './label-editable/label-editable.component';
+import { AutoFocusDirective } from './label-editable/auto-focus.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { CicloComponent } from './ciclo/ciclo.component';
     DataBindingComponent,
     InputPropertyComponent,
     OutputPropertyComponent,
-    CicloComponent
+    CicloComponent,
+    LabelEditableComponent,
+    AutoFocusDirective
   ],
   imports: [
     BrowserModule,

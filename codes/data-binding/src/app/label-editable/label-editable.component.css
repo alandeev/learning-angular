@@ -1,0 +1,29 @@
+.label-editable {
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+
+.label-editable input, .label-editable p {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  outline: 0;
+}
+
+.label-editable input {
+  border-bottom: solid #ccc 0.01cm;
+}
+
+.label-editable input:focus {
+  transition: 0.8s;
+  border-bottom: solid #000 0.03cm;
+}
+
+.label-editable button {
+  border: solid #000 0.01cm;
+  height: 100%;
+  width: 50px;
+}
