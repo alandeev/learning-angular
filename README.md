@@ -6,8 +6,9 @@ _I'm loving learning Angular, it's a powerful framework, even more with the use 
 
 ## To do / Progress 💜
 
-- Angular Structure
-- Generating production build
+- ngClass, ngStyle [directive]
+- operator Elvis
+- ng-content
 
 ## Ready 💖
 
@@ -21,6 +22,7 @@ _I'm loving learning Angular, it's a powerful framework, even more with the use 
 - Angular CLI
 - Directive
 - I created my component that I made in React-JS -> Label-Editable
+- Directives [ ngIf, ngFor, ngSwitch ] / structures
 
 ## Information Progress(Date) and Avaliation
 
