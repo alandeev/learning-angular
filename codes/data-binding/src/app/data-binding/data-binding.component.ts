@@ -13,24 +13,19 @@ export class DataBindingComponent{
   nameValue: string = "abc";
   cursoName: string = "Angular";
 
-  pessoa: any = {
-    name: 'alan',
-    age: 20
-  }
-
   getimage(){
     return this.imageURL;
   }
 
-  changeSelect(event: any){
+  changeSelect(event: Event){
     console.log(event);
   }
 
-  handleClick(event: any){
+  handleClick(event: Event){
     console.log(this.inputValue);
   }
 
   changeInputValue = (value: string) => this.inputValue = value;
   changeName = (value: string) => this.nameValue = value;
-  onMudouValor = (event: any) => console.log(event);
+  onMudouValor = (event: Event) => console.log(event);
 }

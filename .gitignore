@@ -1,0 +1,9 @@
+codes/*/node_modules
+
+codes/*/.gitignore
+codes/*/.editorconfig
+
+codes/*/package-lock.json
+codes/*/yarn.lock
+
+codes/*/README.md

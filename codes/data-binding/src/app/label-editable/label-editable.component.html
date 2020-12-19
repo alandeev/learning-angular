@@ -1,7 +1,7 @@
 <h1>{{ title }}</h1>
 
 <div class="label-editable">
-  <input *ngIf="isInput == true" appAutoFocus #name (keyup)="keyUpInput($event.code)" autofocus [(ngModel)]="value" [value]="value" />
+  <input *ngIf="isInput == true" appAutoFocus #name (keyup)="keyUpInput($event.code)" [(ngModel)]="value" [value]="value" />
   <p *ngIf="isInput == false">{{ value }}</p>
   <button class="btn btn-primary" (click)="editChangeType()">Edit</button>
 </div>
