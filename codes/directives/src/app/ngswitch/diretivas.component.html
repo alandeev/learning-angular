@@ -1,0 +1,18 @@
+<header>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" (click)="aba = 'home'" [class.active]="aba == 'home'" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" (click)="aba = 'cursos'" [class.active]="aba == 'cursos'" href="#">Cursos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" (click)="aba = 'sobre'" [class.active]="aba == 'sobre'" href="#">Sobre</a>
+    </li>
+  </ul>
+</header>
+<section class="container" [ngSwitch]="aba">
+  <p *ngSwitchCase="'home'">Home</p>
+  <p *ngSwitchCase="'cursos'">Cursos</p>
+  <p *ngSwitchCase="'sobre'">Sobre</p>
+</section>
