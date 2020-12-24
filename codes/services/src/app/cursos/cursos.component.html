@@ -1,0 +1,8 @@
+<h5>Lista de cursos</h5>
+
+<ul>
+  <li *ngFor="let curso of cursos; let i = index;">
+    <p>{{ curso }}</p>
+    <button (click)="onDelete(curso)">Apagar</button>
+  </li>
+</ul>

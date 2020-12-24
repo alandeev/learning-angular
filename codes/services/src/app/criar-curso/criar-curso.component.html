@@ -1,0 +1,14 @@
+<div>
+  <input type="text" #cursoInput />
+  <button (click)="onAddCurso(cursoInput.value)">Adicionar</button>
+</div>
+
+<ul>
+  <li *ngFor="let curso of cursos; let i = index;">
+    <p>{{ curso }}</p>
+    <button (click)="onRemCurso(cursoInput.value)">Apagar</button>
+  </li>
+</ul>
+
+
+<app-receber-curso-criado></app-receber-curso-criado>
