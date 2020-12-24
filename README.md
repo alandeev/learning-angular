@@ -6,9 +6,9 @@ _I'm loving learning Angular, it's a powerful framework, even more with the use 
 
 ## To do / Progress 💜
 
-- ngClass, ngStyle [directive]
-- operator Elvis
-- ng-content
+- Pipes
+- Creating Pipes
+- Creating Pipes Pure
 
 ## Ready 💖
 
@@ -23,6 +23,10 @@ _I'm loving learning Angular, it's a powerful framework, even more with the use 
 - Directive
 - I created my component that I made in React-JS -> Label-Editable
 - Directives [ ngIf, ngFor, ngSwitch ] / structures
+- ngClass, ngStyle [directive]
+- operator Elvis
+- ng-content
+- Services and Injectable
 
 ## Information Progress(Date) and Avaliation
 
